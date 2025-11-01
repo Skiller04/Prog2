@@ -17,9 +17,9 @@ public class HealthManagement {
         if ( doctor == null ) {
             throw new IllegalArgumentException ("Doctor cannot be null");
         }
-        int id = doctor.getId();
-        if ( doctors.containsKey(id) ) {
-            throw new DuplicateIdException("Doctor with id " + id + " already exists");
+        
+        if ( doctors.containsKey(doctor.getId()) ) {
+            throw new DuplicateIdException("Doctor with id " + doctor.getId + " already exists");
         }
         doctors.put(doctor.getId(), doctor);
     }
