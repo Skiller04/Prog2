@@ -86,5 +86,13 @@ public class Main {
         System.out.println("\n=== ALLE TESTS BEENDET ===");
 
     }
+     /*
+     * Reflektion:
+     * Checked Exceptions finde ich sinnvoll, wenn man mit Fehlern rechnen muss, die man vorhersehen kann,
+     * z. B. wenn man prüft, ob ein Element schon in einer Liste ist und sonst ein Duplikat entsteht.
+     * Unchecked Exceptions benutze ich eher bei Programmierfehlern, wie z. B. wenn man zu weit auf ein Array zugreift.
+     * Wenn man defensiv programmiert, also Eingaben vorher prüft und Exceptions abfängt,
+     * kann man verhindern, dass das Programm einfach abstürzt, und es stabiler machen.
+     */
 }
 
