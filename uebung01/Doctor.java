@@ -13,11 +13,11 @@ public class Doctor {
     /**
      * Name des Arztes.
      */
-    private String name;
+    private final String name;
     /**
      * Eindeutige ID des Arztes.
      */
-    private int id;
+    private final int id;
     /**
      * Erstellt einen neuen Arzt.
      *
